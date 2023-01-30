@@ -1,3 +1,4 @@
+
 def ceaser_cipher(string, key)
   lower_case = ("a".."z").to_a
   upper_case = ("A".."Z").to_a
@@ -13,6 +14,3 @@ def ceaser_cipher(string, key)
   end
   ciphered_string = ciphered_arr.join
 end
-
-p ceaser_cipher("hellO world", 4)
-p ceaser_cipher("What a string!", 5)
